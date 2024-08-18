@@ -28,7 +28,7 @@ Open your browser and navigate to http://localhost:4000 to see the app in action
 
 ## Technologies and Resources Used
 
-* [My Postman Collection](https://go.postman.co/workspace/80980d54-3fd2-404c-844c-b65e76ed6bf6/collection/34457002-43a0c9a6-84d9-415d-8fec-6849d6585527)
+* [My Postman Collection](https://www.postman.com/tatyanac94/workspace/my-projects/collection/34457002-43a0c9a6-84d9-415d-8fec-6849d6585527?action=share&creator=34457002)
 
 * Node.js
 
