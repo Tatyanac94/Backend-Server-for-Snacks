@@ -1,0 +1,19 @@
+{
+  "name": "backend-server-for-snacks",
+  "version": "1.0.0",
+  "description": " An array that stores snack objects with properties like id, name, description, price, category, and inStock.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Tatyana Cuttino",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
