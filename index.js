@@ -4,8 +4,8 @@ const cors = require('cors');
 const app = express();
 const port = 4000;
 
-app.use(cors()); // CORS middleware
-app.use(express.json()); // Express JSON middleware
+app.use(cors()); 
+app.use(express.json()); 
 
 const snacks = [
   { id: 1, name: "Chips", description: "Crunchy and salty potato chips.", price: 2.99, category: "Salty Snacks", inStock: true },
@@ -61,7 +61,6 @@ app.put("/items/:id", (req, res) => {
       return res.status(400).json({ message: 'Price must be a number' });
     }
 
-    // Ensure required fields are present if they're being updated
     if (!updatedSnack.name || !updatedSnack.description || !updatedSnack.category || updatedSnack.inStock === undefined) {
       return res.status(400).json({ message: 'All fields are required' });
     }
