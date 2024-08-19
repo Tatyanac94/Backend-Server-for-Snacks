@@ -20,8 +20,8 @@ const snacks = [
   { id: 10, name: "Rice Crackers", description: "Light and crispy rice crackers.", price: 3.19, category: "Healthy Snacks", inStock: false }
 ];
 
-// Routes
-app.get('/items', (req, res) => {
+
+app.get('/', (req, res) => {
   res.json(snacks);
 });
 
